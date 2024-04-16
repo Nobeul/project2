@@ -13,7 +13,7 @@
                     </div>
                     <div class="form-group">
                         <label for="time">Time:</label>
-                        <input type="text" class="form-control" id="time" name="time">
+                        <input type="text" class="form-control" id="time" name="time" placeholder="2024-04-17 12:00:00">
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>

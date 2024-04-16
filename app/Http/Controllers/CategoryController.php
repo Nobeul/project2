@@ -43,7 +43,7 @@ class CategoryController extends Controller
         $requested_data = $request->all();
         $requested_data['uuid'] = substr(uniqid(), -6);
 
-        $data['category'] = Category::create();
+        $data['category'] = Category::create($requested_data);
 
         return redirect()->route('categories.index')->with('success', 'Category created successfully.');
     }
